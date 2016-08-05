@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:NMBImageVIew="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:gravity="bottom">
+
+    <com.hasika.nimingban.view.NMBImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        NMBImageVIew:usecache="false"
+        NMBImageVIew:F5="true"
+        NMBImageVIew:url="http://cover.acfunwiki.org/cover.php"
+        android:id="@+id/left_drawlayout_header_img" />
+</LinearLayout>

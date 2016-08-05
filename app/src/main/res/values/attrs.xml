@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NMBImageView">
+        <attr name="url" format="string"></attr>
+        <attr name="progress" format="boolean"></attr>
+        <attr name="usecache" format="boolean"></attr>
+        <attr name="F5" format="boolean"></attr>
+    </declare-styleable>
+</resources>

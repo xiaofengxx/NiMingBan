@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="关于">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="A岛,类似4CH的匿名网站" />
+            <item
+                android:title="试做版本"
+                />
+        </menu>
+    </item>
+
+    <item android:title="">
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="设置" />
+    </item>
+
+
+
+</menu>
